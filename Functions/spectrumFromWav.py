@@ -15,5 +15,5 @@ def spectrumFromWav(wavFile):
                        for the first channel, limited to the first half of the 
                        spectrum due to symmetry.
     """
-    spectrum = fft(wavFile[:, 1]) # Compute the FFT for the first channel
+    spectrum = fft(wavFile[:, 0]) # Compute the FFT for the left channel
     return abs(spectrum[:len(spectrum) // 2]) # Return the magnitude of the spectrum (half due to symmetry)
