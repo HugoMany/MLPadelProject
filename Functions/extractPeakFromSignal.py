@@ -37,6 +37,7 @@ def extractPeakFromSignal(signal, smoothing=1, num_peaks=None):
     >>> print(peaks)
     >>> print(properties["peak_heights"])
     """
+    
     # Ensure the signal is a 1-D array
     signalFile = signal.flatten()
     
