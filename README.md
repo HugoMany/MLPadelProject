@@ -52,12 +52,19 @@ The goal of this project is to predict the impact **position** of the ball on th
 ```
 ├── Data
 ├── Functions
-└── SoundPart
+├── SoundPart
 │   ├── ModelMLAgeRacket
+│   │   ├── RTF
+│   │   │   ├── S_RTF_Age_P1.P2.P3_Peaks.ipynb
+│   │   │   ├── S_RTF_Age_P1.P2.P3_Peaks.csv
+│   │   │   ├── xxxx.ipynb
+│   │   │   └── xxxx.csv
+│   │   ├── .....
 │   ├── ModelMLPositionRacket
 │   ├── ModelMLTypeRacket
 
-└── VibrationPart
+├── VibrationPart
+│   ├── Deprecated
 │   ├── ModelMLAgeRacket
 │   ├── ModelMLPositionRacket
 │   ├── ModelMLTypeRacket
