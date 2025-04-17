@@ -14,14 +14,15 @@ ANTONIUK Pavlo, DAMERY Vincent, LAMBERT Edouard, MANY Hugo, OMS Henri, ZAKI Ilia
 2. [✨ Features](#features)  
 3. [🤖 Machine Learning Models](#machine-learning-models)  
 4. [📊 Data](#data)  
-5. [🛠️ Tools & Functions](#tools--functions)  
-6. [📊 Results and Evaluation](#results-and-evaluation)  
+5. [🛠️ Tools and Functions](#tools-and-functions)  
+6. [📁 Project Structure](#project-structure)  
+7. [📊 Results and Evaluation](#results-and-evaluation)  
 
 
 ## 🎯Project Objective
 The goal of this project is to predict the impact **position** of the ball on the padel racket, the **type** of racket used, and the racket’s **age**, based **sound** or **vibrations**.
 
-## ✨ Features 
+## ✨Features 
 
 ### Energy
 Energy per frequency band is extracted using the FFT and segmented using customizable bandwidths. This highlights how much energy is distributed across specific frequency regions.
@@ -38,7 +39,7 @@ Using FFT, the most prominent frequency peaks (position and magnitude) are extra
 ### Attack Time
 This feature represents the time it takes for the sound to rise from silence to its peak amplitude — a key characteristic in assessing impact sharpness and racket responsiveness.
 
-## 🤖 Machine Learning Models
+## 🤖Machine Learning Models
 ### KNN
 KNN is a simple model. It looks at the closest examples and choose the most common label. We used it as a baseline.
 
@@ -51,7 +52,7 @@ SVM tries to find the best boundary to separate classes. It's a good model when 
 ### XGBoost
 XGBoost builds trees one at a time. Each new tree focuses on fixing the errors from the last one. It’s fast and mostly gives strong results.
 
-## 📊 Data
+## 📊Data
 The dataset consists of audio and vibration recordings of padel ball impacts on rackets. The data is categorized based on the following attributes :
 
 - **Racket Types**:  
@@ -100,7 +101,7 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 | `Age`             | Generation or usage condition of the racket (P1, P2, P3).                    |
 
 
-## 🛠️ Tools & Functions
+## 🛠️Tools and Functions
 
 ### Signal Processing Functions
 
@@ -133,7 +134,7 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 
 
 
-## 📁 Project Structure
+##📁Project Structure
 
 
 ```
@@ -157,6 +158,6 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 └── Visualization
 ```
 
-## 📊 Results and Evaluation
+##📊 Results and Evaluation
 
 
