@@ -21,7 +21,7 @@ ANTONIUK Pavlo, DAMERY Vincent, LAMBERT Edouard, MANY Hugo, OMS Henri, ZAKI Ilia
 ## 🎯Project Objective
 The goal of this project is to predict the impact **position** of the ball on the padel racket, the **type** of racket used, and the racket’s **age**, based **sound** or **vibrations**.
 
-## ✨ Features (ilias)
+## ✨ Features 
 
 ### Energy
 Energy per frequency band is extracted using the FFT and segmented using customizable bandwidths. This highlights how much energy is distributed across specific frequency regions.
@@ -51,7 +51,7 @@ SVM tries to find the best boundary to separate classes. It's a good model when 
 ### XGBoost
 XGBoost builds trees one at a time. Each new tree focuses on fixing the errors from the last one. It’s fast and mostly gives strong results.
 
-## 📊 Data (edouard)
+## 📊 Data 
 
 ### Sound
 We recorded audio from real racket-ball hits. Then we used it to get features from the time and frequency domains (like FFT).
@@ -60,7 +60,7 @@ We recorded audio from real racket-ball hits. Then we used it to get features fr
 We also recorded vibration data using sensors. This gives us another way to understand the impact, along with the audio.
 
 
-## 🛠️ Tools & Functions (edouard)
+## 🛠️ Tools & Functions 
 
 ### Signal Processing Functions
 
