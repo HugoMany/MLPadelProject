@@ -51,16 +51,55 @@ SVM tries to find the best boundary to separate classes. It's a good model when 
 ### XGBoost
 XGBoost builds trees one at a time. Each new tree focuses on fixing the errors from the last one. It’s fast and mostly gives strong results.
 
-## 📊 Data 
+The dataset consists of audio and vibration recordings of padel ball impacts on rackets. The data is categorized based on the following attributes :
+
+- **Racket Types**:  
+    Four types of rackets are used, each differing in size, shape, number of holes, and other characteristics :  
+    - **B** : Blue
+    - **O** : Orange
+    - **R** : Red
+    - **V** : Green
+
+- **Impact Zones**:  
+    The ball impacts are recorded at three distinct zones of impact on the racket :  
+    - **S** : Smash  
+    - **C** : Center
+    - **V** : Volley
+
+- **Racket Generations**:  
+    The rackets are categorized into three generations based on their time of use :  
+    - **P1** : New rackets (Fixed condition)
+    - **P2** : Moderately used rackets (Free condition)
+    - **P3** : Heavily used rackets (Free condition)
+
+For each combination of racket type, impact zone, and condition, 9 impacts are recorded.
+
+This structured dataset provides a comprehensive basis for analyzing the relationship between sound/vibration features and racket characteristics.
 
 ### Sound
-We recorded audio from real racket-ball hits. Then we used it to get features from the time and frequency domains (like FFT).
+We use the sound data in temporal and frequency domains to extract features for the different models. The Fast Fourier Transform (FFT) was used to compute the spectrum.
+
+Each audio file is named using the following format : `generation_racketType_numOfRecord_zoneOfImpact_numOfTry.wav`
+
+Example : `P1_RB_1_C_1.wav`
 
 ### Vibration
-We also recorded vibration data using sensors. This gives us another way to understand the impact, along with the audio.
+We use the frequential data in frequency domain to extract features for the different models, using Fast Fourier Transform (FFT) to compute the spectrum.
+
+The vibration datas are stored in the `All_Data_combined.csv` file. Below is an overview of the columns in this file :
+
+| **Column Name**   | **Description**                                                              |
+|------------------:|:-----------------------------------------------------------------------------|
+| `Raw Signal Ch0`  | Temporal signal data captured from the vibration sensor.                     |
+| `Spectrum`        | Frequency domain representation of the vibration signal.                     |
+| `freqs`           | Frequency values corresponding to the spectrum data.                         |
+| `File Name`       | Name of the file containing the recorded vibration data. `generation_racketType_numOfRecord_zoneOfImpact_numOfTry.csv`                                      |
+| `Position`        | Impact zone on the racket where the ball made contact (C, S, V).             |
+| `Racket Type`     | Color-coded identifier for the type of racket used (B, O, R, V).             |
+| `Age`             | Generation or usage condition of the racket (P1, P2, P3).                    |
 
 
-## 🛠️ Tools & Functions 
+## 🛠️ Tools & Functions
 
 ### Signal Processing Functions
 
@@ -106,15 +145,15 @@ We also recorded vibration data using sensors. This gives us another way to unde
 │   │   │   ├── S_RTF_Age_P1.P2.P3_Peaks.csv
 │   │   │   ├── xxxx.ipynb
 │   │   │   └── xxxx.csv
-│   │   ├── .....
+│   │   └── .....
 │   ├── ModelMLPositionRacket
-│   ├── ModelMLTypeRacket
+│   └── ModelMLTypeRacket
 ├── VibrationPart
 │   ├── Deprecated
 │   ├── ModelMLAgeRacket
 │   ├── ModelMLPositionRacket
-│   ├── ModelMLTypeRacket
-├── Visualization
+│   └── ModelMLTypeRacket
+└── Visualization
 ```
 
 ## 📊 Results and Evaluation
