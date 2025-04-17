@@ -24,10 +24,10 @@ The goal of this project is to predict the impact **position** of the ball on th
 ## ✨ Features (ilias)
 
 ### Energy
-Energy per frequency band is extracted using the FFT and segmented using customizable bandwidths. This highlights how much sound energy is distributed across specific frequency regions.
+Energy per frequency band is extracted using the FFT and segmented using customizable bandwidths. This highlights how much energy is distributed across specific frequency regions.
 
 ### Envelope
-The temporal envelope of the audio signal is calculated using the **Hilbert transform**. It captures how the amplitude change over time, which reflects the dynamics of the impact.
+The spectral envelope of the audio signal is calculated using the **Hilbert transform**. It captures how the amplitude change over time.
 
 ### MFCC
 Mel-Frequency Cepstral Coefficients are extracted to represent the spectral content in a perceptually relevant way. Averaged MFCCs are used as features for classification tasks.
