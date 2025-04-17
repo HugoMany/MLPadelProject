@@ -54,10 +54,7 @@ XGBoost builds trees one at a time. Each new tree focuses on fixing the errors f
 ## 📊 Data (edouard)
 
 ### Sound
-<<<<<<< Updated upstream
-=======
 We recorded audio from real racket-ball hits. Then we used it to get features from the time and frequency domains (like FFT).
->>>>>>> Stashed changes
 
 ### Vibration
 We also recorded vibration data using sensors. This gives us another way to understand the impact, along with the audio.
