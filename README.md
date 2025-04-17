@@ -23,7 +23,7 @@ ANTONIUK Pavlo, DAMERY Vincent, LAMBERT Edouard, MANY Hugo, OMS Henri, ZAKI Ilia
 ## 🎯Project Objective
 The goal of this project is to predict the impact **position** of the ball on the padel racket, the **type** of racket used, and the racket’s **age**, based **sound** or **vibrations**.
 
-## ✨ Features
+## ✨ Features (ilias)
 
 ### Energy
 ### Envelope
@@ -38,12 +38,13 @@ The goal of this project is to predict the impact **position** of the ball on th
 ### SVM
 ### XGBoost
 
-## 📊 Data
+## 📊 Data (edouard)
 
 ### Sound
+
 ### Vibration
 
-## 🛠️ Tools & Functions
+## 🛠️ Tools & Functions (edouard)
 
 
 ## 📁 Project Structure
@@ -62,12 +63,12 @@ The goal of this project is to predict the impact **position** of the ball on th
 │   │   ├── .....
 │   ├── ModelMLPositionRacket
 │   ├── ModelMLTypeRacket
-
 ├── VibrationPart
 │   ├── Deprecated
 │   ├── ModelMLAgeRacket
 │   ├── ModelMLPositionRacket
 │   ├── ModelMLTypeRacket
+├── Visualization
 ```
 
 ## 📊 Results and Evaluation
