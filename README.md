@@ -63,12 +63,12 @@ The goal of this project is to predict the impact **position** of the ball on th
 │   │   ├── .....
 │   ├── ModelMLPositionRacket
 │   ├── ModelMLTypeRacket
-
 ├── VibrationPart
 │   ├── Deprecated
 │   ├── ModelMLAgeRacket
 │   ├── ModelMLPositionRacket
 │   ├── ModelMLTypeRacket
+├── Visualization
 ```
 
 ## 📊 Results and Evaluation

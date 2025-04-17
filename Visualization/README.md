@@ -1,5 +1,3 @@
-"""
-This script generates and saves various visualizations related to sound and vibration data analysis. 
 The visualizations include:
 
 1. `AllPeaks_Provided_to_the_model_Sound_Age.png`: Displays all detected peaks in the sound data provided to the model, categorized by age.
@@ -12,4 +10,3 @@ The visualizations include:
 8. `SpectrumVsEnergyPerBand_Sound_Racket_Type.png`: Compares the spectrum and energy per band of sound data, categorized by racket type.
 
 Each visualization is saved as a PNG file in the `Visualization` directory.
-"""
