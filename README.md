@@ -101,7 +101,9 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 | `Age`             | Generation or usage condition of the racket (P1, P2, P3).                    |
 
 
+
 ## 🛠️Tools and Functions
+
 
 ### Signal Processing Functions
 
@@ -134,7 +136,7 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 
 
 
-##📁Project Structure
+## 📁Project Structure
 
 
 ```
@@ -158,6 +160,6 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 └── Visualization
 ```
 
-##📊 Results and Evaluation
+## 📊Results and Evaluation
 
 
