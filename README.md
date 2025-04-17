@@ -51,6 +51,7 @@ SVM tries to find the best boundary to separate classes. It's a good model when 
 ### XGBoost
 XGBoost builds trees one at a time. Each new tree focuses on fixing the errors from the last one. It’s fast and mostly gives strong results.
 
+## 📊 Data
 The dataset consists of audio and vibration recordings of padel ball impacts on rackets. The data is categorized based on the following attributes :
 
 - **Racket Types**:  
