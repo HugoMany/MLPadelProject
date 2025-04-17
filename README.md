@@ -10,12 +10,12 @@ ANTONIUK Pavlo, DAMERY Vincent, LAMBERT Edouard, MANY Hugo, OMS Henri, ZAKI Ilia
 
 # 📑 Table of Contents
 
-1) 🎯 Project Objective  
-2) ✨ Features  
-3) 🤖 Machine Learning Models  
-4) 📊 Data  
-5) 🛠️ Tools & Functions  
-6) 📊 Results and Evaluation 
+1. [🎯 Project Objective](#project-objective)  
+2. [✨ Features](#features)  
+3. [🤖 Machine Learning Models](#machine-learning-models)  
+4. [📊 Data](#data)  
+5. [🛠️ Tools & Functions](#tools--functions)  
+6. [📊 Results and Evaluation](#results-and-evaluation)  
 
 
 ## 🎯Project Objective
