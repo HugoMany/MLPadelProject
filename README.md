@@ -144,12 +144,12 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 ├── Functions
 ├── SoundPart
 │   ├── ModelMLAgeRacket
-│   │   ├── RTF
-│   │   │   ├── S_RTF_Age_P1.P2.P3_Peaks.ipynb
-│   │   │   ├── S_RTF_Age_P1.P2.P3_Peaks.csv
-│   │   │   ├── xxxx.ipynb
-│   │   │   └── xxxx.csv
-│   │   └── .....
+│   │   ├── KNN
+│   │   |   ├── S_KNN_Age_P1.P2.P3_Peaks.ipynb
+│   │   |   ├── S_KNN_Age_P1.P2.P3_Peaks.csv
+│   │   |   ├── xxxx.ipynb
+│   │   |   └── xxxx.csv
+│   │   └── RTF
 │   ├── ModelMLPositionRacket
 │   └── ModelMLTypeRacket
 ├── VibrationPart
