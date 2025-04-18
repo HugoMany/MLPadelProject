@@ -1,0 +1,26 @@
+ML Model type;Objectives;Dataset;Features;Training Accuracy;Test Accuracy
+KNN;Age;P1.P2.P3;Energy;100%;98%
+KNN;Age;P1.P2.P3;Peaks;100%;77%
+RTF;Age;P1.P2.P3;Peaks;100%;91%
+KNN;Position;P1 ;Energy;100%;100%
+KNN;Position;P1 ;Envelope;100%;95%
+KNN;Position;P1 ;MFCC;100%;63%
+KNN;Position;P1 ;Peaks;100%;86%
+RTF;Position;P1 ;Energy;100%;100%
+RTF;Position;P1 ;Envelope;100%;100%
+RTF;Position;P1 ;MFCC;100%;100%
+RTF;Position;P1 ;Peaks;100%;100%
+SVM;Position;P1 ;Envelope;100%;100%
+SVM;Position;P1 ;Energy;73%;77%
+SVM;Position;P1 ;MFCC;51%;51%
+SVM;Position;P1 ;Peaks;65%;63%
+XGBoost;Position;P1 ;Energy;100%;100%
+KNN;Racket Type;P1.P2.P3;Energy;96%;99%
+KNN;Racket Type;P1.P2.P3;Envelope;100%;91%
+KNN;Racket Type;P1.P2.P3;MFCC;100%;75%
+KNN;Racket Type;P1.P2.P3;Peaks;68%;67%
+RTF;Racket Type;P1.P2.P3;AttackTime;100%;68%
+RTF;Racket Type;P1.P2.P3;Energy;99%;93%
+RTF;Racket Type;P1.P2.P3;Envelope;100%;53%
+RTF;Racket Type;P1.P2.P3;MFCC;99%;66%
+RTF;Racket Type;P1.P2.P3;PEaks;98%;73%
