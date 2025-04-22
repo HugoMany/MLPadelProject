@@ -162,4 +162,25 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 
 ## 📊Results and Evaluation
 
+The best results for each model are stored in the `AllResults.xlsx` file. All of them was trained and tested on sound and vibration datasets with selected features to evaluate its effectiveness.
 
+The table below show some example of performance for different machine learning models from this file  :
+
+> Sound
+
+| **Model Type** | **Objectives** | **Dataset** | **Features** | **Training Accuracy** | **Test Accuracy** |
+|:--------------:|:--------------:|:-----------:|:------------:|:---------------------:|:-----------------:|
+| `KNN`          | Position       | P1          | Energy       | 99.7%                 | 100%              |
+| `KNN`          | Age            | P1.P2.P3    | Peaks        | 100%                  | 77.3%             |
+| `RTF`          | Age            | P1.P2.P3    | Peaks        | 99.8%                 | 91.4%             |
+| `RTF`          | Racket Type    | P1.P2.P3    | AttackTime   | 100%                  | 67.5%             |
+| ...            | ...            | ...         | ...          | ...                   | ...               |
+
+> Vibration
+
+| **Model Type** | **Objectives** | **Dataset** | **Features** | **Training Accuracy** | **Test Accuracy** |
+|:--------------:|:--------------:|:-----------:|:------------:|:---------------------:|:-----------------:|
+| `KNN`          | Position       |	P1      	  | Envelope	   | 99.4%                 | 100%              |
+| `KNN`          | Racket Type    |	P1.P2.P3 	  | MFCC    	   | 100%                  | 100%              |
+| `RTF`          | Position       |	P1      	  | Energy	     | 100%                  | 95.5%             |
+| ...            | ...            | ...         | ...          | ...                   | ...               |
