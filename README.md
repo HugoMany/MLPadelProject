@@ -164,6 +164,8 @@ The vibration datas are stored in the `All_Data_combined.csv` file. Below is an 
 
 The best results for each model are stored in the `AllResults.xlsx` file. All of them was trained and tested on sound and vibration datasets with selected features to evaluate its effectiveness.
 
+The file contains multiple sheets : sound, vibration, both, comparisons between sound and vibration and comparison between KNN and RTF.
+
 The table below show some example of performance for different machine learning models from this file  :
 
 > Sound
